@@ -1,27 +1,37 @@
 body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+    background: linear-gradient(135deg, grey, aqua);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
         }
     
-        .header {
-            border: 1px solid blue;
-            padding: 10px;
-            width: 350px;
-            margin-bottom: 20px;
+.header {
+        border: 1px solid blue;
+        padding: 10px;
+        width: 350px;
+        margin-bottom: 20px;
         }
-        .header img {
-            width: 80px;
-            height: 100px;
-            float: left;
-            margin-right: 15px;
+
+.header img {
+        width: 80px;
+        height: 100px;
+        float: left;
+        margin-right: 15px;
         }
-        .clear {
-            clear: both;
+
+.clear {
+        clear: both;
+        
         }
-        .section {
-            margin-bottom: 15px;
+
+.section {
+        margin-bottom: 15px;
         }
-        .error {
-            color: red;
-            font-size: 14px;
+
+.error {
+        color: red;
+        font-size: 14px;
         }
